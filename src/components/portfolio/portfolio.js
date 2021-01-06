@@ -89,7 +89,7 @@ export default class Portfolio extends Component {
             <div id="modal-01" className="popup-modal mfp-hide">
               <img
                 className="scale-with-grid"
-                src="\images\portfolio\modals\screenshot-29.png"
+                src="images\portfolio\modals\screenshot-29.png"
                 alt=""
               />
               <div className="description-box">
