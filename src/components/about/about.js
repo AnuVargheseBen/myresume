@@ -6,7 +6,7 @@ export default class About extends Component {
         <section id="about">
           <div className="row">
             <div className="three columns">
-              <img className="profile-pic" src="images/anu-profile.jpg" alt="" />
+              <img className="profile-pic" src="images\anu-profile.jpg" alt="" />
             </div>
             <div className="nine columns main-col">
               <h2>About Me</h2>
@@ -27,7 +27,7 @@ export default class About extends Component {
                     <span>
                     Grellstraße 10H
                       <br />
-                      10409,Berlin,germany
+                      10409,Berlin,Germany
                     </span>
                     <br />
                     <span>+49-17663609098</span>

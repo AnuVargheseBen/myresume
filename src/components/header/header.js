@@ -37,7 +37,6 @@ export default class Header extends Component {
                   Testimonials
                 </a>
               </li>
-             
             </ul>{" "}
             {/* end #nav */}
           </nav>{" "}
@@ -46,14 +45,12 @@ export default class Header extends Component {
             <div className="banner-text">
               <h1 className="responsive-headline">I'm Anu Varghese.</h1>
               <h3>
-                I'm  <span>JavaScript Developer</span>,{" "}
-                and <span>Net Suite Developer</span> creating
-                awesome and effective websites for companies of all
-                sizes around the globe. Let's{" "}
+                I'm <span>JavaScript Developer</span>, and{" "}
+                <span>Net Suite Developer</span> creating awesome and effective
+                websites for companies of all sizes around the globe. Let's{" "}
                 <a className="smoothscroll" href="#about">
-                  start scrolling and  learn more{" "}
+                  start scrolling and learn more{" "}
                 </a>
-                
                 <a className="smoothscroll" href="#about">
                   about me
                 </a>
@@ -62,38 +59,33 @@ export default class Header extends Component {
               <hr />
               <ul className="social">
                 <li>
-                  <a href="https://www.facebook.com/anu.varghese.50702769/">
+                  <a
+                    href="https://www.facebook.com/anu.varghese.50702769/"
+                    target="_blank"
+                  >
                     <i className="fa fa-facebook" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/anuvarghese1395">
+                  <a href="https://github.com/anuvarghese1395" target="_blank">
                     <i className="fa fa-github" />
                   </a>
                 </li>
+
                 <li>
-                  <a href="#">
-                    <i className="fa fa-google-plus" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/anu-varghese-00b9bbb6/">
+                  <a
+                    href="https://www.linkedin.com/in/anu-varghese-00b9bbb6/"
+                    target="_blank"
+                  >
                     <i className="fa fa-linkedin" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/anu.ben_varghese/">
+                  <a
+                    href="https://www.instagram.com/anu.ben_varghese/"
+                    target="_blank"
+                  >
                     <i className="fa fa-instagram" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-dribbble" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-skype" />
                   </a>
                 </li>
               </ul>

@@ -10,7 +10,7 @@ export default class Portfolio extends Component {
               {/* portfolio-wrapper */}
               <div
                 id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf"
+                className="bgrid-thirds s-bgrid-thirds cf"
               >
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
@@ -63,22 +63,7 @@ export default class Portfolio extends Component {
                   </div>
                 </div>
                 {/* item end */}
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-04" title>
-                      <img alt="" src="images/portfolio/frame.jpg" />
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>PhotoFrame</h5>
-                          <p>React Project</p>
-                        </div>
-                      </div>
-                      <div className="link-icon">
-                        <i className="icon-plus" />
-                      </div>
-                    </a>
-                  </div>
-                </div>
+
                 {/* item end */}
               </div>
               {/* portfolio-wrapper end */}
@@ -106,7 +91,9 @@ export default class Portfolio extends Component {
                 </span>
               </div>
               <div className="link-box">
-                <a href="https://purecare.jobinandjismi.in/">Details</a>
+                <a href="https://purecare.jobinandjismi.in/" target="_blank">
+                  Details
+                </a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>
@@ -130,7 +117,9 @@ export default class Portfolio extends Component {
                 </span>
               </div>
               <div className="link-box">
-                <a href="https://www.balajiwireless.com/">Details</a>
+                <a href="https://www.balajiwireless.com/" target="_blank">
+                  Details
+                </a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>
@@ -153,37 +142,17 @@ export default class Portfolio extends Component {
                 </span>
               </div>
               <div className="link-box">
-                <a href="https://github.com/anuvarghese1395/tic-tac-toe">
+                <a
+                  href="https://github.com/anuvarghese1395/tic-tac-toe"
+                  target="_blank"
+                >
                   Details
                 </a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>
             {/* modal-03 End */}
-            <div id="modal-04" className="popup-modal mfp-hide">
-              <img
-                className="scale-with-grid"
-                src="images/portfolio/modals/frame.jpg"
-                alt=""
-              />
-              <div className="description-box">
-                <h4>React Project</h4>
-                <p>
-                  To learn React and develop my skills I'm creating small
-                  projects in ReactJS and pushing in to github.
-                </p>
-                <span className="categories">
-                  <i className="fa fa-tag" />
-                  React Project
-                </span>
-              </div>
-              <div className="link-box">
-                <a href="https://github.com/anuvarghese1395/photoframe-arrangement">
-                  Details
-                </a>
-                <a className="popup-modal-dismiss">Close</a>
-              </div>
-            </div>
+
             {/* modal-04 End */}
 
             {/* modal-01 End */}
